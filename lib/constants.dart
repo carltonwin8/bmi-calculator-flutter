@@ -46,15 +46,3 @@ kSliderTheme(context) => SliderTheme.of(context).copyWith(
     overlayColor: kThumbOverlayColor,
     thumbShape: RoundSliderThumbShape(enabledThumbRadius: 15),
     overlayShape: RoundSliderOverlayShape(overlayRadius: 30));
-
-enum WEIGHT_CATEGORY { UNDERWEIGHT, NORMAL, OVERWEIGHT, OBSEASE }
-/*
-class _BmiStrings {
- _BmiStrings({this.})
-}
-const kBmiResultMap <WEIGHT_CATEGORY, _BmiString> = {
-  10:
-}
-
-}
- */
